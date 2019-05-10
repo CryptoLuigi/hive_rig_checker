@@ -17,6 +17,6 @@ wget https://raw.githubusercontent.com/CryptoLuigi/hive_rig_checker/master/rig_c
 
 chmod +x ./rig_checker.sh
 
-echo -e "\n*/10 * * * * /home/user/rig_checker.sh"
+echo -e "\n*/10 * * * * /home/user/rig_checker.sh" >> /hive/etc/crontab.root
 
 ```
